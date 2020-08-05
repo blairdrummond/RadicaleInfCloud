@@ -560,7 +560,7 @@ var globalHideInfoMessageAfter=1800;
 // Set the editor fade in/out animation duration when editing or saving data
 // (in miliseconds).
 // Example:
-var globalEditorFadeAnimation=30;
+var globalEditorFadeAnimation=10;
 
 
 
@@ -768,7 +768,7 @@ var globalTimeZone='America/Toronto';
 // that timezone is enabled (even if it is not present in this list).
 // Example:
 //   var globalTimeZonesEnabled=['America/New_York', 'Europe/Berlin'];	
-var globalTimeZonesEnabled=[];
+var globalTimeZonesEnabled=['America/Toronto', 'America/New_York'];
 
 
 // globalRewriteTimezoneComponent
